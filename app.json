@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "FitTrack",
+    "slug": "fittrack",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "dark",
+    "platforms": [
+      "web"
+    ],
+    "web": {
+      "bundler": "metro",
+      "output": "single",
+      "name": "FitTrack",
+      "shortName": "FitTrack",
+      "description": "Houd je trainingen, oefeningen en voortgang bij.",
+      "themeColor": "#44b5ff",
+      "backgroundColor": "#07111f",
+      "display": "standalone",
+      "startUrl": "./",
+      "scope": "./",
+      "lang": "nl-NL",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-status-bar"
+    ]
+  }
+}
